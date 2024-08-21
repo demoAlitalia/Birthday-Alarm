@@ -122,7 +122,7 @@ def send_message(name,days=None,birthday=None,flag=0):
     DDbot = Bot_status['DingBOT']
     WXbot = Bot_status['WechatBOT']
     if ((DDbot== '0')and(WXbot)=='0'):
-        push_print(content="机器人推送已关闭，请联系管理员(lu_ferine@163.com)解决！")
+        push_print(content="机器人推送已关闭，请联系管理员(***@163.com)解决！")
         return 0
     if flag == '2':
         flag ="农历"
